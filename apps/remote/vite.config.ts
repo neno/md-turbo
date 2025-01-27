@@ -11,7 +11,8 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         // "./App": "./src/App",
-        "./DataExchange": "./src/components/data-exchange/index",
+        // "./DataExchange": "./src/components/data-exchange/index",
+        "./Datenaustausch": "./src/components/datenaustausch/index",
       },
       shared: ["react", "react-dom"],
     }),
