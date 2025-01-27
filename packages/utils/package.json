@@ -1,0 +1,15 @@
+{
+  "name": "@repo/utils",
+  "version": "0.0.0",
+  "exports": {
+    "./format": "./src/format.ts"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts\""
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
