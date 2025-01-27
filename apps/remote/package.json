@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@repo/md-ui": "workspace:*",
+    "@repo/store": "workspace:",
     "@repo/types": "workspace:",
     "@repo/ui": "workspace:*",
     "@tanstack/react-query": "^5.64.2",

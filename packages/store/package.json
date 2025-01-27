@@ -1,0 +1,19 @@
+{
+  "name": "@repo/store",
+  "version": "0.0.0",
+  "exports": {
+    "./store": "./src/store.ts"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts\""
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/types": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  },
+  "dependencies": {
+    "jotai": "^2.11.1"
+  }
+}
