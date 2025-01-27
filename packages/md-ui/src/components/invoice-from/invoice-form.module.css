@@ -1,0 +1,27 @@
+.formFieldsList {
+  list-style: none;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formField {
+  padding: 0;
+  margin: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  text-align: left;
+}
+
+.fieldError {
+  color: red;
+}

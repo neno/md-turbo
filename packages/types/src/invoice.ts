@@ -19,3 +19,4 @@ export const invoiceFormSchema = invoiceSchema.omit({
   id: true,
   total: true,
 });
+export type InvoiceForm = z.infer<typeof invoiceFormSchema>;
