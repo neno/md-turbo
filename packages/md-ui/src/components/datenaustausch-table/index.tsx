@@ -1,11 +1,10 @@
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
-
-import { Invoice } from "../../types/invoice";
-import { formatCurrency } from "../../lib/utils";
+import { Invoice } from "@repo/types/invoice";
+import { USDollar } from "@repo/utils/format";
 
 const priceBodyTemplate = (invoice: Invoice) => {
-  return formatCurrency(invoice.price);
+  return USDollar.format(invoice.price);
 };
 
 export function DatenaustauschTable({ data }: { data: Invoice[] }) {

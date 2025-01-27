@@ -11,8 +11,9 @@
     "server": "json-server --watch db.json --port 8080"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
     "@repo/md-ui": "workspace:*",
+    "@repo/types": "workspace:",
+    "@repo/ui": "workspace:*",
     "@tanstack/react-query": "^5.64.2",
     "primereact": "^10.9.2",
     "zod": "^3.24.1"
