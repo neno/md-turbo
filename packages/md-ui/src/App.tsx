@@ -1,6 +1,6 @@
 import "./assets/lara-dark-green/theme.css";
 import "./App.css";
-import { InvoiceForm } from "./components/invoice-from";
+import { InvoiceForm } from "./components/invoice-form";
 import { InvoiceForm as InvoiceFormType } from "@repo/types/invoice";
 
 function App() {
